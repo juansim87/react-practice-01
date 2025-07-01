@@ -1,0 +1,17 @@
+.custom-button {
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.751);
+    color: #fff;
+    border: 2px black solid;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.custom-button:hover {
+    background-color: rgba(255, 0, 0, 0.751);
+}
+
+.custom-button p {
+    font-size: 20px;
+}

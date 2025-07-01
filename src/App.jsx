@@ -1,4 +1,5 @@
 import './App.css'
+import BotonPersonalizado from './components/BotonPersonalizado/BotonPersonalizado'
 import TarjetaUsuario from './components/TarjetaUsuario/TarjetaUsuario'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <TarjetaUsuario name= "Juan Simón" age= "37" city= "Salamanca"/>
+      <BotonPersonalizado message= "¡Haz click aquí!"/>
     </>
   )
 }
