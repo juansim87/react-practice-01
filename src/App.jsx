@@ -1,4 +1,5 @@
 import "./App.css";
+import Alerta from "./components/Alerta/Alerta";
 import BotonPersonalizado from "./components/BotonPersonalizado/BotonPersonalizado";
 import Producto from "./components/Producto/Producto";
 import TarjetaUsuario from "./components/TarjetaUsuario/TarjetaUsuario";
@@ -12,6 +13,10 @@ function App() {
       <h2>Lista de la compra</h2>
       <Producto titulo="Teclado" precio= {45} descripcion="Teclado mecánico con lucecitas"/>
       <Producto titulo="Monitor" precio={100} descripcion="27 pulgadas, pantalla HD, se ve top"/>
+
+      <Alerta message= "ERROR GRAVE QUE TE CAGAS" type= "error"/>
+      <Alerta message= "Tremendo éxito, vamos a por unas papas" type= "success"/>
+      <Alerta message= "Este mensaje es informativo de absolutamente nada" type= "info"/>
       
     </>
   );
