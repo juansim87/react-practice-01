@@ -1,6 +1,7 @@
 import "./App.css";
 import Alerta from "./components/Alerta/Alerta";
 import BotonPersonalizado from "./components/BotonPersonalizado/BotonPersonalizado";
+import CitaFrase from "./components/CitaFrase/CitaFrase";
 import ContadorClicks from "./components/ContadorClicks/ContadorClicks";
 import Producto from "./components/Producto/Producto";
 import TarjetaUsuario from "./components/TarjetaUsuario/TarjetaUsuario";
@@ -20,6 +21,8 @@ function App() {
       <Alerta message= "Este mensaje es informativo de absolutamente nada" type= "info"/>
 
       <ContadorClicks quantity = {1} message= "Incrementar"/>
+
+      <CitaFrase quote= "Citadme diciendo que me han citado mal" author= "Groucho Marx"/>
       
     </>
   );
