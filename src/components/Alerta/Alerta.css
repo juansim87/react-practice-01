@@ -1,11 +1,11 @@
-.error {
+.alert--error {
     color: red;
 }
 
-.info {
+.alert--info {
     color: blue;
 }
 
-.success {
+.alert--success {
     color: green;
 }

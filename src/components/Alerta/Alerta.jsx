@@ -5,20 +5,20 @@ const Alerta = (props) => {
 
   if (type === "error") {
     return (
-      <div className="error">
-        <p>{message}</p>
+      <div className="alert--error">
+        <h1>{message}</h1>
       </div>
     );
   } else if (type === "info") {
     return (
-      <div className="info">
-        <p>{message}</p>
+      <div className="alert--info">
+        <h1>{message}</h1>
       </div>
     );
-  } else  {
+  } else if (type === "success"){
     return (
-      <div className="success">
-        <p>{message}</p>
+      <div className="alert--success">
+        <h1>{message}</h1>
       </div>
     );
   }

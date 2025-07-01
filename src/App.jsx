@@ -1,6 +1,7 @@
 import "./App.css";
 import Alerta from "./components/Alerta/Alerta";
 import BotonPersonalizado from "./components/BotonPersonalizado/BotonPersonalizado";
+import ContadorClicks from "./components/ContadorClicks/ContadorClicks";
 import Producto from "./components/Producto/Producto";
 import TarjetaUsuario from "./components/TarjetaUsuario/TarjetaUsuario";
 
@@ -17,6 +18,8 @@ function App() {
       <Alerta message= "ERROR GRAVE QUE TE CAGAS" type= "error"/>
       <Alerta message= "Tremendo éxito, vamos a por unas papas" type= "success"/>
       <Alerta message= "Este mensaje es informativo de absolutamente nada" type= "info"/>
+
+      <ContadorClicks quantity = {1} message= "Incrementar"/>
       
     </>
   );
