@@ -1,11 +1,12 @@
 import './App.css'
+import TarjetaUsuario from './components/TarjetaUsuario/TarjetaUsuario'
 
 function App() {
   
 
   return (
     <>
-      <h1>Hola Mundo!</h1>
+      <TarjetaUsuario name= "Juan Simón" age= "37" city= "Salamanca"/>
     </>
   )
 }
